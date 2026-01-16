@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background: #739ad1;
+    height: 400px;
+}
+
+.top {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.textInput {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border: none;
+}
+
+.search {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: none;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.search:hover {
+    color: white;
+    background-color: #a5a5a5;
+    cursor: pointer;
+}
+
+.bottom {
+    height: 300px;
+    width: 100%;
+}
+
+.pp {
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Stats {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #4c78b6;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.joinImage {
+    height: 20px;
+    transition: filter 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Join {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinjoin {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.joinImage:hover {
+    filter: brightness(0.5);
+    transform: scale(1.2);
+    cursor: pointer;
+}
